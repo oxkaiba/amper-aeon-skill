@@ -1,6 +1,12 @@
-# Amper x Aeon
+<p align="center">
+  <img src="https://app.amper.chat/logos/amper-black-white.png" alt="Amper" height="60" />
+  <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+  <img src="https://github.com/aaronjmars/aeon/blob/main/assets/aeon.jpg?raw=true" alt="Aeon" height="60" />
+</p>
 
-**DeFi execution layer for Aeon agents.** One API, 80+ tools, autonomous on-chain operations across multiple chains.
+<h1 align="center">Amper x Aeon</h1>
+
+<p align="center"><strong>DeFi execution layer for Aeon agents.</strong> One API, 80+ tools, autonomous on-chain operations across multiple chains.</p>
 
 ---
 
@@ -142,6 +148,7 @@ chains:
 | **Rate limits** | 30 req/min, 500 req/day per key |
 | **Execution** | Sequential (one request at a time per key) |
 | **Idempotency** | Required `X-Idempotency-Key` header (UUID, unique per request) |
+| **Timeouts** | 60s for trade tools, 30s for read tools |
 
 ## Security
 
