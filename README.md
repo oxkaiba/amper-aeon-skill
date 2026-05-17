@@ -142,7 +142,6 @@ chains:
 | **Rate limits** | 30 req/min, 500 req/day per key |
 | **Execution** | Sequential (one request at a time per key) |
 | **Idempotency** | Required `X-Idempotency-Key` header (UUID, unique per request) |
-| **Timeouts** | 60s for trade tools, 30s for read tools |
 
 ## Security
 
