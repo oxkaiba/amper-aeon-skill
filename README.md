@@ -170,4 +170,4 @@ Full error reference in the [Amper API docs](https://app.amper.chat).
 
 - [Amper App](https://app.amper.chat)
 - [Aeon Framework](https://github.com/aaronjmars/aeon)
-- [Amper on X](https://x.com/amaboramper)
+- [Amper on X](https://x.com/helloamper)
